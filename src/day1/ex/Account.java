@@ -18,12 +18,12 @@ public class Account {
         this.minBalance = minBalance;
     }
 
-    public static String getId() {
+    public String getId() {
         return id;
     }
 
-    public static void setId(String id) {
-        Account.id = id;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getPassword() {
