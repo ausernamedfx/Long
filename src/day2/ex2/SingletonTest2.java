@@ -19,7 +19,7 @@ class Order{
     //声明当前对象.没有初始化
     private static Order instance = null;
 
-    //
+    //用到了再初始化,所以叫懒汉式
     public static Order getInstance(){
         if (instance == null){
             instance = new Order();
