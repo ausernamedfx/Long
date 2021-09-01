@@ -10,5 +10,6 @@ public class AccountTest {
         System.out.println(acc1);
         System.out.println(acc2);
         System.out.println(acc1.getInterestRate());
+//        double uu = acc1.getInterestRate();
     }
 }
