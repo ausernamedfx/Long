@@ -7,6 +7,8 @@ public class AbstractTest {
         // 不可实例化
 //        Person p1 = new Person();
 //        p1.eat();
+        // aa
+
 
 
 //        Student s1 = new Student();
