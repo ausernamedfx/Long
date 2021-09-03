@@ -2,6 +2,12 @@ package day3.abstractTest;
 
 // 抽象方法,抽象类
 
+/*
+
+* abstract 不能修饰属性构造器和私有方法,静态方法
+*
+* */
+
 public class AbstractTest {
     public static void main(String[] args) {
         // 不可实例化
@@ -13,6 +19,7 @@ public class AbstractTest {
 
 //        Student s1 = new Student();
 //        s1.eat();
+
     }
 }
 
