@@ -1,41 +1,46 @@
 package day4.ex;
 
-public class MyDate {
-    private String year;
-    private String month;
-    private String day;
+import java.time.Year;
 
-    public MyDate(String year, String month, String day) {
+public class MyDate {
+    private int year;
+    private int month;
+    private int day;
+
+    public MyDate(int year, int month, int day) {
         this.year = year;
         this.month = month;
         this.day = day;
     }
 
-    public String getYear() {
+
+
+    public int getYear() {
         return year;
     }
 
-    public void setYear(String year) {
+    public void setYear(int year) {
         this.year = year;
     }
 
-    public String getMonth() {
+    public int getMonth() {
         return month;
     }
 
-    public void setMonth(String month) {
+    public void setMonth(int month) {
         this.month = month;
     }
 
-    public String getDay() {
+    public int getDay() {
         return day;
     }
 
-    public void setDay(String day) {
+    public void setDay(int day) {
         this.day = day;
     }
 
     public String toDateString(){
-        return this.year + " 年" + "\t" + this.month + " 月" + "\t" + this.day + " 日";
+        return this.year + " 年" + " " + this.month + "月" +
+                " " + this.day + "日";
     }
 }

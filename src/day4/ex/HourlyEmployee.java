@@ -10,6 +10,12 @@ public class HourlyEmployee extends Employee{
         super(name, number, birthday);
     }
 
+    public HourlyEmployee(String name, int number, MyDate birthday,int wage,int hour) {
+        super(name, number, birthday);
+        this.hour = hour;
+        this.wage = wage;
+    }
+
     @Override
     public double earnings() {
         return 0;
