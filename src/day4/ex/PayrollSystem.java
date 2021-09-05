@@ -6,6 +6,7 @@ public class PayrollSystem {
     public static void main(String[] args) {
         Employee[] emps = new Employee[2];
 
+
         emps[0] = new SalariedEmployee("马森",1002,
                 new MyDate(1992,2,28),10000);
         emps[1] = new HourlyEmployee("张三",2001,
