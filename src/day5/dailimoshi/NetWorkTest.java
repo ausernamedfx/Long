@@ -33,6 +33,7 @@ class ProxyServer implements NetWork{
 
     private NetWork work;
 
+
     public ProxyServer(NetWork work){
         this.work = work;
     }
