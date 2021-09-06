@@ -47,3 +47,4 @@ class ProxyServer implements NetWork{
         work.browse();
     }
 }
+
